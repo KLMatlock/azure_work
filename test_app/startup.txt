@@ -1,0 +1,1 @@
+gunicorn test_app.hello:myapp --bind=0.0.0.0 --timeout 600
